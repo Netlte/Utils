@@ -1,0 +1,36 @@
+{
+  "name": "netlte/utils",
+  "description": "Utilities",
+  "homepage": "https://github.com/Netlte/Utils",
+  "license": [
+	"BSD-3-Clause",
+	"GPL-2.0",
+	"GPL-3.0"
+  ],
+  "authors": [
+	{
+	  "name": "Tomáš Holan",
+	  "homepage": "https://tomasholan.eu"
+	}
+  ],
+  "require": {
+	"php": ">=7.1",
+	"nette/utils": "^2.4 || ^3.0"
+  },
+  "minimum-stability": "dev",
+  "config": {
+	"platform": {
+	  "php": "7.1"
+	}
+  },
+  "autoload": {
+	"classmap": [
+	  "src/"
+	]
+  },
+  "autoload-dev": {
+	"classmap": [
+	  "src/"
+	]
+  }
+}
